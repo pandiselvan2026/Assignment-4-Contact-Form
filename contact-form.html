@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(130, 125, 99);
+        }
+        
+        #main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin-top: 80px;
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+
+        #main h1{
+            background-color: rgb(226, 166, 86);
+            font-size: 26px;
+            text-align: center;
+        }
+
+        #out{
+            font-size: smaller;
+            text-align: justify;
+        }
+
+        #info{
+            margin-top: -20px;
+            font-size: 100%;
+        }
+
+        input{
+            background-color: rgb(255, 173, 66);
+            margin-top: 6px;
+            margin-bottom: 6px;
+            border: 3px;
+            border-radius: 5px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>CONTACT FORM</h1>
+    <div id="out">
+        <p ><strong> <marquee>We are excited to get start with you</marquee> </strong> </p>
+    </div>
+
+    <div id="info">
+        <h3>Enter Your Details</h3>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="your name" required> <br>
+        <label>Email </label><br>
+        <input type="email" placeholder="your mail id" , required> <br>
+        <label>Phone number</label><br>
+        <input type="number" placeholder="10 digit mobile" , required> <br>
+        <br>
+        <label>Select your course</label><br> <br>
+        <input type="radio" id="Java" name="course" value="Java">
+        <label for="Java">JAVA FULL STACK</label> <br> <br>
+
+        <input type="radio" id="PYTHON" name="course" value="PYTHON">
+        <label for="Java">PYTHON FULL STACK</label> <br> <br>
+
+        <label for="suggestion">Suggestion</label> <br>
+        <br>
+        <textarea  id="suggestion"></textarea> <br><br>
+
+
+        <button type="submit">Submit</button>
+
+
+    </div>
+    </div>
+
+
+</body>
+</html>
